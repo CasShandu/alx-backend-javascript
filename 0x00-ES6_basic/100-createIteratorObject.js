@@ -9,4 +9,3 @@ export default function createIteratorObject(report) {
 
   return employees[Symbol.iterator]();
 }
-
