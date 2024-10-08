@@ -1,7 +1,6 @@
 const privateData = new WeakMap();
 
 export default class Currency {
-
   constructor(code, name) {
     privateData.set(this, {
       validateCode(code) {
